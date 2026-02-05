@@ -16,7 +16,7 @@ body {
 }
 
 .menu>.home {
-    content: "صفحه اصلی";
+    content: "main page";
     width: 101px;
     height: 31px;
     font-weight: 600;
