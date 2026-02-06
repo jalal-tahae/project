@@ -1,5 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
 body {
     background: #060B25;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: auto;
+    min-width: none;
+    max-width: 1900;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header>nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -17,7 +42,7 @@ body {
 
 
 
-.menu>.home {
+nav>.home {
     content: "main page";
     width: 101px;
     height: 31px;
@@ -28,20 +53,21 @@ body {
     ;
 }
 
-.shop {
-    content: "فروشگاه";
-    font-weight: 400;
+nav>.menu-item {
+    content: "main page";
+    width: 101px;
+    height: 31px;
+    font-weight: 600;
     font-size: 20px;
     color: #fff;
+    top: 60;
+    ;
 }
 
 
-.services {
-    content: "خدمات";
-}
 
 
-.Capa {
+.background-pattern {
 
     position: absolute;
     left: -52.01%;
@@ -52,24 +78,31 @@ body {
 }
 
 .cta {
-    content: " ورود و ثبت نام";
+    /* position: relative; */
+
     padding: 16px 8px;
     border-bottom: 1px;
     border-radius: 16px;
-    top: 50px;
-    left: 100px;
-    padding: 10px 25px;
-    gap: 10px;
+    /* top: 50px;
+    left: 100px; */
+    /* padding: 10px 25px; */
+    /* gap: 10px; */
+    /* border: 1px solid red; */
     background-color: #6F4EFD;
 }
 
-.typography {
+.cta .ctl-user {
+    content: " ورود و ثبت نام";
+}
 
-    position: absolute;
+.typography {
+    float: right;
+    border: 1px solid blue;
+    /* position:relative;
     left: -52.01%;
     right: -50.97%;
     top: -22.45%;
-    bottom: 80.22%;
+    bottom: 80.22%; */
 }
 
 .typography>img {
