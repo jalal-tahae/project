@@ -87,11 +87,31 @@ nav>.menu-item {
     content: " ورود و ثبت نام";
 }
 
-.typography {
-    float: right;
+div.typography {
+    /* position: absolute; */
+    /* img:Topographic 6.png */
+    /* border-width: 0px, 0px, 0px, 0px; */
+    /* border-style: solid; */
+    /* border-color: #FFFFFF0A; */
+    /* max-width: 2923px; */
+    width: 100%;
+    /* max-height: 2350.867431640625px; */
+    /* width: 100%; */
+    /* opacity: 1; */
+    /* top: -1249.87px; */
+    /* left: -749px; */
+    border-radius: 16px;
+    border-bottom: 1px;
+    padding: 16px 8px;
+    display: flex;
+    justify-self: start;
+
+
     border: 1px solid blue;
     align-self: flex-end;
-    /* position:relative;
+    width: min-content;
+    height: min-content;
+    /*
     left: -52.01%;
     right: -50.97%;
     top: -22.45%;
@@ -109,7 +129,7 @@ nav>.menu-item {
     content: "هر آنچه برای رسیدن به اندام ایده آل نیاز دارید";
     /* هر آنچه برای رسیدن به اندام ایده آل نیاز دارید */
     overflow: auto;
-    position: relative;
+    /* position: relative; */
     width: 644px;
     height: 174px;
     /*  left: 696px;*/
@@ -133,7 +153,7 @@ nav>.menu-item {
 
 .profesional {
     content: "تخصصی ترین وبسایت بدنسازی درایران با مجوز رسمی";
-    position: relative;
+    /* position: relative; */
     /* width: 644px;
     height: 174px;
     left: 696px; */
@@ -141,44 +161,26 @@ nav>.menu-item {
     /* background: linear-gradient(269.55deg, #FFFFFF -1.46%, rgba(111, 78, 253, 0.64) 222.76%); */
 }
 
-div.typography {
-    /* position: absolute; */
-    /* img:Topographic 6.png */
-    /* border-width: 0px, 0px, 0px, 0px; */
-    /* border-style: solid; */
-    /* border-color: #FFFFFF0A; */
-    /* max-width: 2923px; */
-    width: 100%;
-    /* max-height: 2350.867431640625px; */
-    /* width: 100%; */
-    /* opacity: 1; */
-    /* top: -1249.87px; */
-    /* left: -749px; */
-    border-radius: 16px;
-    border-bottom: 1px;
-    padding: 16px 8px;
-    float: left;
-}
-
-.background-pattern {
-
-    position: relative;
-
-    /* left: -52.01%; */
-    /* right: -50.97%; */
-    /* top: -22.45%; */
-    /* bottom: 80.22%; */
-
-}
 
 .background-pattern>img {
-    position: relative;
+    display: block;
     background-image: url(./assets/back-g-patern.svg);
     width: 100px;
     background-color: #060B25;
 
 }
 
+.cup {
+    background-color: rgba(111, 78, 253, 1);
+    width: 50px;
+    height: 50px;
+    border-radius: 100000px;
+}
+
+.cup>img {
+    transform: translate(-14%, 20%);
+
+}
 
 .class {}
 
