@@ -67,15 +67,7 @@ nav>.menu-item {
 
 
 
-.background-pattern {
 
-    position: absolute;
-    left: -52.01%;
-    right: -50.97%;
-    top: -22.45%;
-    bottom: 80.22%;
-
-}
 
 .cta {
     /* position: relative; */
@@ -98,6 +90,7 @@ nav>.menu-item {
 .typography {
     float: right;
     border: 1px solid blue;
+    align-self: flex-end;
     /* position:relative;
     left: -52.01%;
     right: -50.97%;
@@ -105,25 +98,77 @@ nav>.menu-item {
     bottom: 80.22%; */
 }
 
+.right {}
+
 .typography>img {
     width: 1000px;
+    float: left;
 }
 
-div.Topographic6 {
-    position: absolute;
+.everything {
+    content: "هر آنچه برای رسیدن به اندام ایده آل نیاز دارید";
+    /* هر آنچه برای رسیدن به اندام ایده آل نیاز دارید */
+    overflow: auto;
+    position: relative;
+    width: 644px;
+    height: 174px;
+    /*  left: 696px;*/
+    top: 208px;
+
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 87px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    background: linear-gradient(269.32deg, #FFFFFF -3.57%, #BDADFF 113.28%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.profesional {
+    content: "تخصصی ترین وبسایت بدنسازی درایران با مجوز رسمی";
+    position: relative;
+    /* width: 644px;
+    height: 174px;
+    left: 696px; */
+    top: 238px;
+    /* background: linear-gradient(269.55deg, #FFFFFF -1.46%, rgba(111, 78, 253, 0.64) 222.76%); */
+}
+
+div.typography {
+    /* position: absolute; */
     /* img:Topographic 6.png */
-    border-width: 0px, 0px, 0px, 0px;
-    border-style: solid;
-    border-color: #FFFFFF0A;
-    max-width: 2923;
-    max-height: 2350.867431640625;
-    width: 100px;
-    opacity: 1;
-    top: -1249.87px;
-    left: -749px;
+    /* border-width: 0px, 0px, 0px, 0px; */
+    /* border-style: solid; */
+    /* border-color: #FFFFFF0A; */
+    /* max-width: 2923px; */
+    width: 100%;
+    /* max-height: 2350.867431640625px; */
+    /* width: 100%; */
+    /* opacity: 1; */
+    /* top: -1249.87px; */
+    /* left: -749px; */
     border-radius: 16px;
     border-bottom: 1px;
     padding: 16px 8px;
+    float: left;
+}
+
+.background-pattern {
+
+    position: relative;
+
+    /* left: -52.01%; */
+    /* right: -50.97%; */
+    /* top: -22.45%; */
+    /* bottom: 80.22%; */
+
 }
 
 .background-pattern>img {
@@ -135,38 +180,9 @@ div.Topographic6 {
 }
 
 
-.class {
-    content: "هر آنچه برای رسیدن به اندام ایده آل نیاز دارید";
-    /* هر آنچه برای رسیدن به اندام ایده آل نیاز دارید */
+.class {}
 
-    position: absolute;
-    width: 644px;
-    height: 174px;
-    left: 696px;
-    top: 208px;
-
-    font-family: 'Yekan Bakh';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 56px;
-    line-height: 87px;
-    display: flex;
-    align-items: center;
-    text-align: right;
-
-    background: linear-gradient(269.32deg, #FFFFFF -3.57%, #BDADFF 113.28%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-
-}
-
-.sub-title {
-    content: "تخصصی ترین وبسایت بدنسازی درایران با مجوز رسمی";
-    background: linear-gradient(269.55deg, #FFFFFF -1.46%, rgba(111, 78, 253, 0.64) 222.76%);
-
-}
+.sub-title {}
 
 /* Topographic 6 */
 
