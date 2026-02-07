@@ -1,3 +1,5 @@
+@import url(./assets/style.css);
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -163,6 +165,7 @@ div.typography {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 .profesional h2 {
@@ -201,9 +204,8 @@ div.typography {
 
 }
 
-.class {}
 
-.sub-title {}
+
 
 .Topographic {
     /* Topographic 6 */
@@ -224,45 +226,46 @@ div.typography {
     bottom: 80.22%;
 }
 
+.frame {
+    /* Frame 5 */
+    position: absolute;
+    width: 704.36px;
+    height: 684.58px;
+    left: -7px;
+    top: 140px;
+}
 
-/* Frame 5 */
-position: absolute;
-width: 704.36px;
-height: 684.58px;
-left: -7px;
-top: 140px;
+.Group {
+    /* Group 3 */
 
+    position: absolute;
+    width: 704.36px;
+    height: 684.58px;
+    left: 0px;
+    top: 0px;
+}
 
+.maskg {
+    /* Mask group */
 
-/* Group 3 */
+    position: absolute;
+    width: 574.7px;
+    height: 574.7px;
+    left: 48.64px;
+    top: 109.89px;
+}
 
-position: absolute;
-width: 704.36px;
-height: 684.58px;
-left: 0px;
-top: 0px;
+.Ellipse {
+    /* Ellipse 130 */
 
+    position: absolute;
+    left: 6.91%;
+    right: 11.5%;
+    top: 16.05%;
+    bottom: 0%;
 
-
-/* Mask group */
-
-position: absolute;
-width: 574.7px;
-height: 574.7px;
-left: 48.64px;
-top: 109.89px;
-
-
-
-/* Ellipse 130 */
-
-position: absolute;
-left: 6.91%;
-right: 11.5%;
-top: 16.05%;
-bottom: 0%;
-
-background: #6F4EFD;
+    background: #6F4EFD;
+}
 
 .ottf {
     /* 1245 1 */
@@ -436,7 +439,7 @@ background: #6F4EFD;
 .Ellipse {
     /* Ellipse 129 */
 
-    box-sizing: border-box;
+
 
     position: absolute;
     left: 9.65%;
@@ -538,14 +541,15 @@ background: #6F4EFD;
     bottom: 8.39%;
 }
 
+.vector {
+    /* Vector */
 
-/* Vector */
-
-position: absolute;
-left: 8.29%;
-right: 8.27%;
-top: 8.41%;
-bottom: 8.39%;
+    position: absolute;
+    left: 8.29%;
+    right: 8.27%;
+    top: 8.41%;
+    bottom: 8.39%;
+}
 
 .a01 {
     background: #FFF;
