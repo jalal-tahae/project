@@ -11,7 +11,7 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column;
+
 }
 
 .header {
@@ -70,7 +70,7 @@ nav>.menu-item {
 
 
 .cta {
-    /* position: relative; */
+
 
     padding: 16px 8px;
     border-bottom: 1px;
@@ -88,53 +88,68 @@ nav>.menu-item {
 }
 
 div.typography {
-    /* position: absolute; */
+
     /* img:Topographic 6.png */
-    /* border-width: 0px, 0px, 0px, 0px; */
+    /* border-width: 0px; */
     /* border-style: solid; */
     /* border-color: #FFFFFF0A; */
-    /* max-width: 2923px; */
+
     width: 100%;
-    /* max-height: 2350.867431640625px; */
-    /* width: 100%; */
-    /* opacity: 1; */
-    /* top: -1249.87px; */
-    /* left: -749px; */
+
+
+
+
     border-radius: 16px;
     border-bottom: 1px;
     padding: 16px 8px;
     display: flex;
     justify-self: start;
-
+    position: relative;
+    text-align: center;
+    color: white;
 
     border: 1px solid blue;
     align-self: flex-end;
     width: min-content;
     height: min-content;
-    /*
-    left: -52.01%;
-    right: -50.97%;
-    top: -22.45%;
-    bottom: 80.22%; */
 }
 
-.right {}
+
 
 .typography>img {
-    width: 1000px;
-    float: left;
+
+    /* Bottom left text */
+
+    /* position: absolute; */
+    bottom: 8px;
+    left: 16px;
+    max-width: 600px;
+
+
+}
+
+.right {
+    display: flex;
+    background-image: url(./assets/back-g-patern.svg);
+    flex-direction: column;
+    width: 80%;
+}
+
+.right .left {
+    align-self: flex-end;
+}
+
+.left {
+    display: flex;
 }
 
 .everything {
-    content: "هر آنچه برای رسیدن به اندام ایده آل نیاز دارید";
     /* هر آنچه برای رسیدن به اندام ایده آل نیاز دارید */
     overflow: auto;
-    /* position: relative; */
     width: 644px;
     height: 174px;
     /*  left: 696px;*/
     top: 208px;
-
     font-family: 'Yekan Bakh';
     font-style: normal;
     font-weight: 800;
@@ -143,7 +158,6 @@ div.typography {
     display: flex;
     align-items: center;
     text-align: right;
-
     background: linear-gradient(269.32deg, #FFFFFF -3.57%, #BDADFF 113.28%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -151,23 +165,28 @@ div.typography {
     text-fill-color: transparent;
 }
 
+.profesional h2 {
+    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(111, 78, 253, 0.64));
+    background-clip: text;
+    color: transparent;
+}
+
 .profesional {
     content: "تخصصی ترین وبسایت بدنسازی درایران با مجوز رسمی";
-    /* position: relative; */
+    display: flex;
+    color: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(111, 78, 253, 0.64));
+
     /* width: 644px;
     height: 174px;
     left: 696px; */
     top: 238px;
-    /* background: linear-gradient(269.55deg, #FFFFFF -1.46%, rgba(111, 78, 253, 0.64) 222.76%); */
 }
-
 
 .background-pattern>img {
     display: block;
     background-image: url(./assets/back-g-patern.svg);
     width: 100px;
     background-color: #060B25;
-
 }
 
 .cup {
@@ -2211,162 +2230,181 @@ bottom: 89.06%;
 
 border: 2px solid rgba(255, 255, 255, 0.04);
 
+.Vector {
+    /* Vector */
+
+    position: absolute;
+    left: -49.08%;
+    right: 13.43%;
+    top: -21.47%;
+    bottom: 88.54%;
+
+    border: 2px solid rgba(255, 255, 255, 0.04);
+}
+
+.Frame {
+    /* Vector */
+
+    position: absolute;
+    left: -50.05%;
+    right: 8.79%;
+    top: -21.79%;
+    bottom: 88%;
+
+    border: 2px solid rgba(255, 255, 255, 0.04);
+}
+
+.Frame {
+    /* Vector */
+
+    position: absolute;
+    left: -51%;
+    right: 4.14%;
+    top: -22.12%;
+    bottom: 87.47%;
+
+    border: 2px solid rgba(255, 255, 255, 0.04);
+}
+
+.vector {
+    /* Vector */
+
+    position: absolute;
+    left: -52.01%;
+    right: -0.55%;
+    top: -22.45%;
+    bottom: 86.92%;
+
+    border: 2px solid rgba(255, 255, 255, 0.04);
+}
+
+.Frame {
+    /* Frame 5 */
+
+    position: absolute;
+    width: 704.36px;
+    height: 684.58px;
+    left: -7px;
+    top: 140px;
+}
+
+.Group {
+    /* Group 3 */
+
+    position: absolute;
+    width: 704.36px;
+    height: 684.58px;
+    left: 0px;
+    top: 0px;
+}
+
+.Ellipse {
+    /* Ellipse 129 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 9.65%;
+    right: 8.76%;
+    top: 13.96%;
+    bottom: 2.09%;
+
+    border: 1.1145px solid #FFFFFF;
+}
+
+.Ellipse {
+    /* Ellipse 130 */
+
+    position: absolute;
+    left: 6.91%;
+    right: 11.5%;
+    top: 16.05%;
+    bottom: 0%;
+
+    background: #6F4EFD;
+}
+
+.mask {
+    /* Mask group */
+
+    position: absolute;
+    width: 574.7px;
+    height: 574.7px;
+    left: 48.64px;
+    top: 109.89px;
+}
+
+.Ellipse {
+    /* Ellipse 130 */
+
+    position: absolute;
+    left: 6.91%;
+    right: 11.5%;
+    top: 16.05%;
+    bottom: 0%;
+
+    background: #6F4EFD;
+}
+
+.ott {
+    /* 1245 1 */
+
+    position: absolute;
+    width: 704.36px;
+    height: 704.36px;
+    left: 0px;
+    top: 0px;
+
+    background: url(1245.png);
+}
+
+.ott {
+    /* 1245 2 */
+
+    position: absolute;
+    width: 704.36px;
+    height: 641.31px;
+    left: 0px;
+    top: 0px;
+
+    background: url(1245.png);
+    opacity: 0.52;
+    filter: blur(76px);
+}
+
+.ott {
+    /* 1245 3 */
+
+    position: absolute;
+    width: 704.36px;
+    height: 641.31px;
+    left: 0px;
+    top: 0px;
+
+    background: url(1245.png);
+}
+
+.Star {
+
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 113px;
+    top: 65px;
+}
+
+
+.Group {
+
+    position: absolute;
+    left: 8.29%;
+    right: 8.27%;
+    top: 8.41%;
+    bottom: 8.39%;
+}
+
 
 /* Vector */
-
-position: absolute;
-left: -49.08%;
-right: 13.43%;
-top: -21.47%;
-bottom: 88.54%;
-
-border: 2px solid rgba(255, 255, 255, 0.04);
-
-
-/* Vector */
-
-position: absolute;
-left: -50.05%;
-right: 8.79%;
-top: -21.79%;
-bottom: 88%;
-
-border: 2px solid rgba(255, 255, 255, 0.04);
-
-
-/* Vector */
-
-position: absolute;
-left: -51%;
-right: 4.14%;
-top: -22.12%;
-bottom: 87.47%;
-
-border: 2px solid rgba(255, 255, 255, 0.04);
-
-
-/* Vector */
-
-position: absolute;
-left: -52.01%;
-right: -0.55%;
-top: -22.45%;
-bottom: 86.92%;
-
-border: 2px solid rgba(255, 255, 255, 0.04);
-
-
-/* Frame 5 */
-
-position: absolute;
-width: 704.36px;
-height: 684.58px;
-left: -7px;
-top: 140px;
-
-
-
-/* Group 3 */
-
-position: absolute;
-width: 704.36px;
-height: 684.58px;
-left: 0px;
-top: 0px;
-
-
-
-/* Ellipse 129 */
-
-box-sizing: border-box;
-
-position: absolute;
-left: 9.65%;
-right: 8.76%;
-top: 13.96%;
-bottom: 2.09%;
-
-border: 1.1145px solid #FFFFFF;
-
-
-/* Ellipse 130 */
-
-position: absolute;
-left: 6.91%;
-right: 11.5%;
-top: 16.05%;
-bottom: 0%;
-
-background: #6F4EFD;
-
-
-/* Mask group */
-
-position: absolute;
-width: 574.7px;
-height: 574.7px;
-left: 48.64px;
-top: 109.89px;
-
-
-
-/* Ellipse 130 */
-
-position: absolute;
-left: 6.91%;
-right: 11.5%;
-top: 16.05%;
-bottom: 0%;
-
-background: #6F4EFD;
-
-
-/* 1245 1 */
-
-position: absolute;
-width: 704.36px;
-height: 704.36px;
-left: 0px;
-top: 0px;
-
-background: url(1245.png);
-
-
-/* 1245 2 */
-
-position: absolute;
-width: 704.36px;
-height: 641.31px;
-left: 0px;
-top: 0px;
-
-background: url(1245.png);
-opacity: 0.52;
-filter: blur(76px);
-
-
-/* 1245 3 */
-
-position: absolute;
-width: 704.36px;
-height: 641.31px;
-left: 0px;
-top: 0px;
-
-background: url(1245.png);
-
-
-/* Star */
-
-position: absolute;
-width: 62px;
-height: 62px;
-left: 113px;
-top: 65px;
-
-
-
-/* Group */
 
 position: absolute;
 left: 8.29%;
@@ -2374,15 +2412,6 @@ right: 8.27%;
 top: 8.41%;
 bottom: 8.39%;
 
-
-
-/* Vector */
-
-position: absolute;
-left: 8.29%;
-right: 8.27%;
-top: 8.41%;
-bottom: 8.39%;
-
-/* 01 */
-background: #FFFFFF;
+.a01 {
+    background: #FFF;
+}
