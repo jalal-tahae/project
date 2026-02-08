@@ -110,8 +110,8 @@ div.typography {
 
     border: 1px solid blue;
     align-self: flex-end;
-    width: min-content;
-    height: min-content;
+
+
 }
 
 
@@ -124,7 +124,7 @@ div.typography {
     bottom: 8px;
     left: 16px;
     max-width: 600px;
-    width: 1rem%;
+    width: 100%;
 
 
 }
@@ -134,6 +134,7 @@ div.typography {
     background-image: url(./assets/back-g-patern.svg);
     flex-direction: column;
     width: 80%;
+    position: relative;
 }
 
 .right .left {
@@ -198,7 +199,7 @@ div.typography {
     height: 50px;
     border-radius: 100000px;
     left: -600px;
-    top: 10px;
+    top: 61px;
     z-index: 5;
 }
 
@@ -223,6 +224,46 @@ div.typography {
     backdrop-filter: blur(28px)
 }
 
+.numbers {
+    display: flex;
+    width: 91px;
+    height: 643px;
+    padding: 16px 8px;
+    border-bottom: 1px;
+    border-radius: 16px;
+    gap: 53px;
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 135px;
+    height: 91px;
+    font-weight: 700;
+
+    font-size: 46px;
+}
+
+.number {
+    display: flex;
+    width: 135px;
+    height: 91px;
+    font-weight: 700;
+
+    font-size: 46px;
+}
+
+.text {
+    width: 235px;
+    height: 91px;
+    color: #8F82CA;
+    font-weight: 600;
+
+    font-size: 21px;
+
+}
 
 
 .Topographic {
