@@ -5,6 +5,10 @@
     color: #fff;
 }
 
+:root {
+    --primary: #6F4EFD;
+}
+
 body {
     background: #060B25;
     background-image: url(./assets/back-g-patern.svg);
@@ -12,8 +16,14 @@ body {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
 
 }
+
+.container>.first-box {
+    display: flex;
+}
+
 
 .header {
     width: auto;
@@ -49,7 +59,7 @@ nav>.home {
     height: 31px;
     font-weight: 600;
     font-size: 20px;
-    color: #6F4EFD;
+    color: var(--primary);
     top: 60;
     ;
 }
@@ -71,21 +81,21 @@ nav>.menu-item {
 
 
 .cta {
-
+    width: 130px;
 
     padding: 16px 8px;
     border-bottom: 1px;
-    border-radius: 16px;
+    border-radius: 10px;
     /* top: 50px;
     left: 100px; */
     /* padding: 10px 25px; */
     /* gap: 10px; */
     /* border: 1px solid red; */
-    background-color: #6F4EFD;
+    background-color: var(--primary);
 }
 
-.cta .ctl-user {
-    content: " ورود و ثبت نام";
+.cta .ctl-user span {
+    /* ورود و ثبت نام */
 }
 
 div.typography {
@@ -94,25 +104,14 @@ div.typography {
     /* border-width: 0px; */
     /* border-style: solid; */
     /* border-color: #FFFFFF0A; */
-
     width: 100%;
-
-
-
-
     border-radius: 16px;
-    border-bottom: 1px;
     padding: 16px 8px;
     display: flex;
-    justify-self: start;
-    position: relative;
-    text-align: center;
     color: white;
-
     border: 1px solid blue;
-    align-self: flex-end;
-
-
+    align-self: flex-start;
+    justify-content: right;
 }
 
 
@@ -121,10 +120,10 @@ div.typography {
 
     /* Bottom left text */
 
-    /* position: absolute; */
-    bottom: 8px;
-    left: 16px;
-    max-width: 600px;
+
+    /* bottom: 8px;
+    left: 16px; */
+    /* max-width: 600px; */
     width: 100%;
     min-width: 200px;
 
@@ -132,10 +131,10 @@ div.typography {
 
 .right {
     display: flex;
-   
+
     flex-direction: column;
     width: 80%;
-    position: relative;
+
 }
 
 .right .left {
@@ -148,11 +147,12 @@ div.typography {
 
 .everything {
     /* هر آنچه برای رسیدن به اندام ایده آل نیاز دارید */
+    padding-right: 2rem;
     overflow: auto;
     width: 644px;
     height: 174px;
-    /*  left: 696px;*/
-    top: 208px;
+
+
     font-family: 'Yekan Bakh';
     font-style: normal;
     font-weight: 800;
@@ -176,6 +176,7 @@ div.typography {
 }
 
 .profesional {
+    padding-right: 2rem;
     content: "تخصصی ترین وبسایت بدنسازی درایران با مجوز رسمی";
     display: flex;
     color: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(111, 78, 253, 0.64));
@@ -213,7 +214,7 @@ div.typography {
     display: flex;
     padding: 2rem;
     width: 600px;
-    position: relative;
+
     border: 1px solid rgba(255, 255, 255, 0.21);
     border-radius: 10px;
     color: white;
@@ -228,7 +229,7 @@ div.typography {
 .numbers {
     display: flex;
     width: 91px;
-    height: 643px;
+    height: 350px;
     padding: 16px 8px;
     border-bottom: 1px;
     border-radius: 16px;
@@ -247,7 +248,7 @@ div.typography {
     font-size: 46px;
 }
 
-.number {
+.content .number {
     display: flex;
     width: 135px;
     height: 91px;
@@ -256,12 +257,12 @@ div.typography {
     font-size: 46px;
 }
 
-.text {
-    width: 235px;
+.content .text {
+    width: 147px;
     height: 91px;
     color: #8F82CA;
     font-weight: 600;
-
+    text-align: center;
     font-size: 21px;
 
 }
@@ -270,7 +271,7 @@ div.typography {
 .Topographic {
     /* Topographic 6 */
 
-    position: absolute;
+
     left: -52.01%;
     right: -50.97%;
     top: -22.45%;
@@ -279,7 +280,7 @@ div.typography {
 
 .Capa {
     /* Capa 1 */
-    position: absolute;
+
     left: -52.01%;
     right: -50.97%;
     top: -22.45%;
@@ -288,7 +289,7 @@ div.typography {
 
 .frame {
     /* Frame 5 */
-    position: absolute;
+
     width: 704.36px;
     height: 684.58px;
     left: -7px;
@@ -298,7 +299,7 @@ div.typography {
 .Group {
     /* Group 3 */
 
-    position: absolute;
+
     width: 704.36px;
     height: 684.58px;
     left: 0px;
@@ -308,7 +309,7 @@ div.typography {
 .maskg {
     /* Mask group */
 
-    position: absolute;
+
     width: 574.7px;
     height: 574.7px;
     left: 48.64px;
@@ -318,19 +319,19 @@ div.typography {
 .Ellipse {
     /* Ellipse 130 */
 
-    position: absolute;
+
     left: 6.91%;
     right: 11.5%;
     top: 16.05%;
     bottom: 0%;
 
-    background: #6F4EFD;
+    background: var(--primary);
 }
 
 .ottf {
     /* 1245 1 */
 
-    position: absolute;
+
     width: 704.36px;
     height: 704.36px;
     left: 0px;
@@ -342,7 +343,7 @@ div.typography {
 .ottf {
     /* 1245 2 */
 
-    position: absolute;
+
     width: 704.36px;
     height: 641.31px;
     left: 0px;
@@ -356,7 +357,7 @@ div.typography {
 .ottf {
     /* 1245 3 */
 
-    position: absolute;
+
     width: 704.36px;
     height: 641.31px;
     left: 0px;
@@ -368,7 +369,7 @@ div.typography {
 .Star {
     /* Star */
 
-    position: absolute;
+
     width: 62px;
     height: 62px;
     left: 113px;
@@ -378,7 +379,7 @@ div.typography {
 .Group {
     /* Group */
 
-    position: absolute;
+
     left: 8.29%;
     right: 8.27%;
     top: 8.41%;
@@ -388,7 +389,7 @@ div.typography {
 .Vector {
     /* Vector */
 
-    position: absolute;
+
     left: 8.29%;
     right: 8.27%;
     top: 8.41%;
@@ -401,216 +402,21 @@ div.typography {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.Vector {
-    /* Vector */
-
-    position: absolute;
-    left: -48.18%;
-    right: 18.02%;
-    top: -21.16%;
-    bottom: 89.06%;
-
-    border: 2px solid rgba(255, 255, 255, 0.04);
+.container>.full-width {
+    width: 100%;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.Vector {
-    /* Vector */
+.container>.full-width .slope {
+    transform: rotate(-3deg);
+    font-size: 2rem;
+    font-weight: 600;
+    width: 100%;
+    background-color: #684CEB;
 
-    position: absolute;
-    left: -49.08%;
-    right: 13.43%;
-    top: -21.47%;
-    bottom: 88.54%;
-
-    border: 2px solid rgba(255, 255, 255, 0.04);
-}
-
-.Frame {
-    /* Vector */
-
-    position: absolute;
-    left: -50.05%;
-    right: 8.79%;
-    top: -21.79%;
-    bottom: 88%;
-
-    border: 2px solid rgba(255, 255, 255, 0.04);
-}
-
-.Frame {
-    /* Vector */
-
-    position: absolute;
-    left: -51%;
-    right: 4.14%;
-    top: -22.12%;
-    bottom: 87.47%;
-
-    border: 2px solid rgba(255, 255, 255, 0.04);
-}
-
-.vector {
-    /* Vector */
-
-    position: absolute;
-    left: -52.01%;
-    right: -0.55%;
-    top: -22.45%;
-    bottom: 86.92%;
-
-    border: 2px solid rgba(255, 255, 255, 0.04);
-}
-
-.Frame {
-    /* Frame 5 */
-
-    position: absolute;
-    width: 704.36px;
-    height: 684.58px;
-    left: -7px;
-    top: 140px;
-}
-
-.Group {
-    /* Group 3 */
-
-    position: absolute;
-    width: 704.36px;
-    height: 684.58px;
-    left: 0px;
-    top: 0px;
-}
-
-.Ellipse {
-    /* Ellipse 129 */
-
-
-
-    position: absolute;
-    left: 9.65%;
-    right: 8.76%;
-    top: 13.96%;
-    bottom: 2.09%;
-
-    border: 1.1145px solid #FFFFFF;
-}
-
-.Ellipse {
-    /* Ellipse 130 */
-
-    position: absolute;
-    left: 6.91%;
-    right: 11.5%;
-    top: 16.05%;
-    bottom: 0%;
-
-    background: #6F4EFD;
-}
-
-.mask {
-    /* Mask group */
-
-    position: absolute;
-    width: 574.7px;
-    height: 574.7px;
-    left: 48.64px;
-    top: 109.89px;
-}
-
-.Ellipse {
-    /* Ellipse 130 */
-
-    position: absolute;
-    left: 6.91%;
-    right: 11.5%;
-    top: 16.05%;
-    bottom: 0%;
-
-    background: #6F4EFD;
-}
-
-.ott {
-    /* 1245 1 */
-
-    position: absolute;
-    width: 704.36px;
-    height: 704.36px;
-    left: 0px;
-    top: 0px;
-
-    background: url(1245.png);
-}
-
-.ott {
-    /* 1245 2 */
-
-    position: absolute;
-    width: 704.36px;
-    height: 641.31px;
-    left: 0px;
-    top: 0px;
-
-    background: url(1245.png);
-    opacity: 0.52;
-    filter: blur(76px);
-}
-
-.ott {
-    /* 1245 3 */
-
-    position: absolute;
-    width: 704.36px;
-    height: 641.31px;
-    left: 0px;
-    top: 0px;
-
-    background: url(1245.png);
-}
-
-.Star {
-
-    position: absolute;
-    width: 62px;
-    height: 62px;
-    left: 113px;
-    top: 65px;
-}
-
-
-.Group {
-
-    position: absolute;
-    left: 8.29%;
-    right: 8.27%;
-    top: 8.41%;
-    bottom: 8.39%;
-}
-
-.vector {
-    /* Vector */
-
-    position: absolute;
-    left: 8.29%;
-    right: 8.27%;
-    top: 8.41%;
-    bottom: 8.39%;
-}
-
-.a01 {
-    background: #FFF;
 }
