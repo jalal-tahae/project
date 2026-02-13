@@ -418,5 +418,149 @@ div.typography {
     font-weight: 600;
     width: 100%;
     background-color: #684CEB;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.services {
+    margin: 2rem auto;
+}
+
+.our-s {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.our-s span {
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.card-s-container {
+    display: flex;
+    width: 100%;
+    max-width: 1900px;
+    display: flex;
+    margin: auto;
+}
+
+.card-s-container .card-s {
+    width: 297px;
+    min-height: 425px;
+    background-color: #FFFFFF1A;
+    backdrop-filter: blur(28px);
+    border-radius: 16px;
+    /* padding: 16px 8px; */
+    margin: 64px 8.5px 0 8.5px;
+
+}
+
+.card-s-container .card-s .card-header {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.card-s:hover {
+    background-color: #6F4EFD;
+    border: 1px solid white;
+
+}
+
+.spaces {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: auto;
+}
+
+.products {
+    width: 1621px;
+    min-height: 741px;
+    overflow: hidden;
+
+}
+
+.cards-product {
+    transform: translateY(100px);
+    /*animation*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    /* flex-shrink: 0; */
+    height: 500px;
+    width: 70%;
+    margin: 0 auto;
+    overflow-y: hidden;
+}
+
+.cards-product .card-body {
+    margin: 0 20px;
+    position: relative;
+    width: 297px;
+    min-height: 397px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.cards-product .card-body:hover {
+    background-color: var(--primary);
+}
+
+.cards-product .card-body img {
+    width: 220px;
+    position: relative;
+    top: -58px;
+    margin: auto;
+}
+
+.productinfo>.pname {
+    flex-wrap: nowrap;
+}
+
+.productinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.productinfo>.fee {
+    display: flex;
+    flex-direction: row;
+}
+
+.add-to-basket {
+    display: flex;
+    background-color: var(--primary);
+    font-weight: 900;
+    font-size: 1.5rem;
+    justify-content: center;
+    margin: 4.7rem auto 0 auto;
+    transform: translatey(0.8rem);
+    width: 1.9rem;
+    height: 1.9rem;
+    /* text-align: center; */
+
+}
+
+.card-body:hover .add-to-basket {
+    display: none;
+}
+
+.card-body .hover {
+    display: none;
+
+}
+
+.card-body:hover .hover {
+    background-color: #fff;
+    color: #6F4EFD;
+    display: flex;
+    border-radius: 16px;
+    width: max-content;
+    margin: 4rem auto 0 auto;
+    transform: translateY(2rem);
 
 }
