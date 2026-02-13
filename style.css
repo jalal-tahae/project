@@ -18,6 +18,7 @@ body {
     display: flex;
     flex-wrap: wrap;
 
+
 }
 
 .container>.first-box {
@@ -129,7 +130,7 @@ div.typography {
 
 }
 
-.right {
+.container>.right {
     display: flex;
 
     flex-direction: column;
@@ -137,7 +138,7 @@ div.typography {
 
 }
 
-.right .left {
+.container>.right .left {
     align-self: flex-end;
 }
 
@@ -562,5 +563,68 @@ div.typography {
     width: max-content;
     margin: 4rem auto 0 auto;
     transform: translateY(2rem);
+
+}
+
+.triple>.c {
+    border-radius: 100000px;
+    width: 10px;
+    height: 10px;
+}
+
+.triple>.active {
+    background-color: var(--primary);
+}
+
+.triple>.deact {
+    background-color: rgba(255, 255, 255, 0.17);
+    /*background: #6F4EFD;*/
+
+}
+
+.left>.img>img {
+    width: 500px;
+
+}
+
+.container2>.left {
+    display: flex;
+    /* position: absolute; */
+    width: 50%;
+}
+
+.container2>.left>img {
+    position: absolute;
+}
+
+.container2>.left>.right {
+    position: relative;
+    right: 0;
+    top: -530px;
+    width: 200px;
+}
+
+.container2>.left>.right>img {
+    width: 96px;
+}
+
+.container2>.left>.buttom {
+    position: absolute;
+}
+
+.container2>.right {
+    display: flex;
+    width: 50%;
+    height: 100px;
+
+}
+
+.container2 {
+    display: flex;
+
+}
+
+.videos {
+    display: flex;
 
 }
