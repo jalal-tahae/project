@@ -458,17 +458,23 @@ div.typography {
     border-radius: 16px;
     /* padding: 16px 8px; */
     margin: 64px 8.5px 0 8.5px;
-padding: 2rem;
+    padding: 2rem;
 
+}
+
+.card-s-container .card-s h3 {
+    font-weight: 700;
+    font-size: 25px;
+    font-family: yekan;
 }
 
 .card-s-container .card-s img {
     display: flex;
     justify-content: center;
-    
 
-    width: 80px;
-    height: 80px;
+
+    width: 60px;
+    height: 60px;
 }
 
 .card-s-container .card-s .card-header {
