@@ -27,6 +27,7 @@ body {
 
 
 .header {
+    position: absolute;
     width: auto;
     min-width: 300px;
     max-width: 1900px;
@@ -40,7 +41,7 @@ body {
 }
 
 .header>.logo {
-   position: absolute;
+   
     /* background: #060B25; */
     /* 126*48 */
     top: 153.59px;
