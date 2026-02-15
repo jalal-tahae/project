@@ -28,8 +28,8 @@ body {
 
 .header {
     width: auto;
-    min-width: none;
-    max-width: 1900;
+    min-width: 300px;
+    max-width: 1900px;
     display: flex;
     justify-content: space-between;
 }
@@ -39,11 +39,11 @@ body {
     justify-content: space-between;
 }
 
-.logo {
-    content: "X.POWER";
+.header>.logo {
+   position: absolute;
     /* background: #060B25; */
     /* 126*48 */
-    top: 53.59px;
+    top: 153.59px;
     right: 100px;
     left: 1214px;
     font-family: yekan bakh;
@@ -55,18 +55,18 @@ body {
 
 
 nav>.home {
-    content: "main page";
+    
     width: 101px;
     height: 31px;
     font-weight: 600;
     font-size: 20px;
     color: var(--primary);
-    top: 60;
-    ;
+    top: 60px;
+    
 }
 
 nav>.menu-item {
-    content: "main page";
+  
     width: 101px;
     height: 31px;
     font-weight: 600;
@@ -140,11 +140,10 @@ div.typography {
 
 .container>.right .left {
     align-self: flex-end;
-}
-
-.left {
     display: flex;
 }
+
+
 
 .everything {
     /* هر آنچه برای رسیدن به اندام ایده آل نیاز دارید */
@@ -166,7 +165,7 @@ div.typography {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+
     -webkit-text-fill-color: transparent;
 }
 
@@ -447,6 +446,28 @@ div.typography {
     margin: auto;
 }
 
+.card-s-container .svg-white {
+    fill: #fff;
+    background-color: transparent;
+    width: 20px;
+    fill: red;
+    /* fill="red" stroke="none"*/
+}
+
+/*
+.my-svg rect {
+  fill: blue;
+}
+
+.my-svg rect.my-color-blue {
+  fill: red;
+}
+
+.my-svg rect.my-color-purple {
+  fill: green;
+}
+*/
+
 .card-s-container .card-s {
     display: flex;
     flex-direction: column;
@@ -473,8 +494,8 @@ div.typography {
     justify-content: center;
 
 
-    width: 60px;
-    height: 60px;
+    /* width: 60px;
+    height: 60px; */
 }
 
 .card-s-container .card-s .card-header {
@@ -608,7 +629,7 @@ div.typography {
 
 .container2>.left {
     display: flex;
-    /* position: absolute; */
+    position: relative;
     width: 50%;
 }
 
@@ -618,17 +639,37 @@ div.typography {
 
 .container2>.left>.right {
     position: relative;
-    right: 0;
-    top: -530px;
-    width: 200px;
+
+    background-color: rgba(255, 255, 255, 0.24);
+    right: -500px;
+    top: 0;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
 }
+
+.container2>.left>.right span {}
 
 .container2>.left>.right>img {
     width: 96px;
+    height: 96px;
 }
 
 .container2>.left>.buttom {
     position: absolute;
+    top: 350px;
+    background-color: rgba(255, 255, 255, 0.24);
+    box-shadow: 0 0 36px 0;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: max-content;
+}
+
+.container2>.left>.buttom img {
+    width: 200px;
+    height: 200px;
 }
 
 .container2>.right {
