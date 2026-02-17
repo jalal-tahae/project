@@ -10,6 +10,7 @@
 }
 
 body {
+    width: 99%;
     background: #060B25;
     background-image: url(./assets/back-g-patern.svg);
 }
@@ -23,28 +24,34 @@ body {
 
 .container>.first-box {
     display: flex;
+    margin-top: 140px;
 }
 
 
 .header {
-    position: absolute;
-    width: auto;
-    min-width: 300px;
+    position: relative;
+
+
+    width: 100%;
     max-width: 1900px;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 .header>nav {
+    position: absolute;
+    top: 53.59px;
+
     display: flex;
-    justify-content: space-between;
+    margin: auto;
+    /* justify-content: space-between; */
 }
 
 .header>.logo {
-   
+    position: absolute;
     /* background: #060B25; */
     /* 126*48 */
-    top: 153.59px;
+    top: 53.59px;
     right: 100px;
     left: 1214px;
     font-family: yekan bakh;
@@ -56,25 +63,27 @@ body {
 
 
 nav>.home {
-    
-    width: 101px;
+    position: absolute;
+    right: 253px;
+    top: 0;
+    width: 109px;
     height: 31px;
     font-weight: 600;
     font-size: 20px;
     color: var(--primary);
-    top: 60px;
-    
+
+
 }
 
 nav>.menu-item {
-  
-    width: 101px;
+    position: relative;
+    right: 381px;
     height: 31px;
     font-weight: 600;
     font-size: 20px;
     color: #fff;
     top: 60;
-    ;
+    margin: 0 20px;
 }
 
 
@@ -83,6 +92,9 @@ nav>.menu-item {
 
 
 .cta {
+    position: absolute;
+    top: 50px;
+    left: 50px;
     width: 130px;
 
     padding: 16px 8px;
@@ -98,6 +110,13 @@ nav>.menu-item {
 
 .cta .ctl-user span {
     /* ورود و ثبت نام */
+}
+
+div.typography>.star {
+    top: 65px;
+    left: 113px;
+    width: 62px;
+    height: 62px;
 }
 
 div.typography {
@@ -473,7 +492,7 @@ div.typography {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 297px;
+    max-width: 297px;
     min-height: 425px;
     background-color: #FFFFFF1A;
     backdrop-filter: blur(28px);
@@ -624,7 +643,7 @@ div.typography {
 }
 
 .left>.img>img {
-    width: 500px;
+    max-width: 500px;
 
 }
 
