@@ -113,18 +113,14 @@ nav>.menu-item {
 }
 
 div.typography>.star {
+    position: relative;
     top: 65px;
-    left: 113px;
+    right: 501px;
     width: 62px;
     height: 62px;
 }
 
 div.typography {
-
-    /* img:Topographic 6.png */
-    /* border-width: 0px; */
-    /* border-style: solid; */
-    /* border-color: #FFFFFF0A; */
     width: 100%;
     border-radius: 16px;
     padding: 16px 8px;
@@ -133,19 +129,37 @@ div.typography {
     border: 1px solid blue;
     align-self: flex-start;
     justify-content: right;
+    position: relative;
 }
 
+.back-circle-null {
+    position: absolute;
+    top: 108px;
+    right: 89px;
+    width: 400px;
+    height: 400px;
+    z-index: -2;
+}
 
+.back-circle {
+    top: 112px;
+    right: 88px;
+    position: absolute;
+    width: 410px;
+    height: 410px;
+    z-index: -1;
+}
 
-.typography>img {
-
+.typography>img.typo {
+position: absolute;
     /* Bottom left text */
 
 
     /* bottom: 8px;
     left: 16px; */
     /* max-width: 600px; */
-    width: 100%;
+    width: 561px;
+    height: 516px;
     min-width: 200px;
 
 }
