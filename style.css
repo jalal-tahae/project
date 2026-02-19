@@ -126,18 +126,18 @@ div.typography {
     padding: 16px 8px;
     display: flex;
     color: white;
-    border: 1px solid blue;
-    align-self: flex-start;
+
+
     justify-content: right;
     position: relative;
 }
 
 .back-circle-null {
     position: absolute;
-    top: 108px;
-    right: 89px;
-    width: 400px;
-    height: 400px;
+    top: 97px;
+    right: 70px;
+    width: 425px;
+    height: 425px;
     z-index: -2;
 }
 
@@ -145,13 +145,13 @@ div.typography {
     top: 112px;
     right: 88px;
     position: absolute;
-    width: 410px;
-    height: 410px;
+    width: 418px;
+    height: 418px;
     z-index: -1;
 }
 
 .typography>img.typo {
-position: absolute;
+    position: absolute;
     /* Bottom left text */
 
 
@@ -204,7 +204,7 @@ position: absolute;
 }
 
 .profesional h2 {
-    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(111, 78, 253, 0.64));
+    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(111, 78, 253, 0.74));
     background-clip: text;
     color: transparent;
 }
@@ -248,7 +248,8 @@ position: absolute;
     display: flex;
     padding: 2rem;
     width: 600px;
-
+    background-color: rgba(255, 255, 255, 0.07);
+    ;
     border: 1px solid rgba(255, 255, 255, 0.21);
     border-radius: 10px;
     color: white;
@@ -263,7 +264,7 @@ position: absolute;
 .numbers {
     display: flex;
     width: 91px;
-    height: 350px;
+    height: 123px;
     padding: 16px 8px;
     border-bottom: 1px;
     border-radius: 16px;
@@ -526,15 +527,16 @@ position: absolute;
 .card-s-container .card-s img {
     display: flex;
     justify-content: center;
+}
 
-
-    /* width: 60px;
-    height: 60px; */
+.card-s span {
+    margin: 0 auto 41px auto;
 }
 
 .card-s-container .card-s .card-header {
     font-weight: 700;
     font-size: 25px;
+    margin: 26px auto;
 }
 
 .card-s:hover {
@@ -665,6 +667,18 @@ position: absolute;
     display: flex;
     position: relative;
     width: 50%;
+}
+
+.continu-icon span img {
+    display: inline;
+    margin: 8px;
+    width: 18px;
+    height: 15px;
+}
+
+.continu-icon span {
+    display: flex;
+    width: max-content;
 }
 
 .container2>.left>img {
