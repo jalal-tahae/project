@@ -669,6 +669,8 @@ div.typography {
     width: 50%;
 }
 
+
+
 .continu-icon span img {
     display: inline;
     margin: 8px;
@@ -681,32 +683,40 @@ div.typography {
     width: max-content;
 }
 
-.container2>.left>img {
+.container2>.left >img {
     position: absolute;
 }
 
-.container2>.left>.right {
+.container2>.left .right {
     position: relative;
 
     background-color: rgba(255, 255, 255, 0.24);
-    right: -500px;
-    top: 0;
+    right: 0;
+    
+    top: 50%;
+    transform: translateY(-50%);
     width: max-content;
     height: max-content;
     display: flex;
     flex-direction: column;
+
+ 
+
 }
 
-.container2>.left>.right span {}
+.container2>.left .right span {}
 
-.container2>.left>.right>img {
+.container2>.left .right>img {
     width: 96px;
     height: 96px;
 }
 
-.container2>.left>.buttom {
+.container2>.left .buttom {
     position: absolute;
-    top: 350px;
+    bottom: 0%;
+    right: 50%;
+    transform: translateX(50%);
+
     background-color: rgba(255, 255, 255, 0.24);
     box-shadow: 0 0 36px 0;
     display: flex;
@@ -715,7 +725,7 @@ div.typography {
     height: max-content;
 }
 
-.container2>.left>.buttom img {
+.container2>.left .buttom img {
     width: 200px;
     height: 200px;
 }
