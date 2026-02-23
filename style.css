@@ -64,7 +64,7 @@ body {
 
 nav>.home {
     position: absolute;
-    right: 253px;
+    right: 273px;
     top: 0;
     width: 109px;
     height: 31px;
@@ -99,7 +99,7 @@ nav>.menu-item {
 
     padding: 16px 8px;
     border-bottom: 1px;
-    border-radius: 10px;
+    border-radius: 4px;
     /* top: 50px;
     left: 100px; */
     /* padding: 10px 25px; */
@@ -109,7 +109,9 @@ nav>.menu-item {
 }
 
 .cta .ctl-user span {
+    display: flex;
     /* ورود و ثبت نام */
+    margin: 0 14px;
 }
 
 div.typography>.star {
@@ -177,7 +179,7 @@ div.typography {
     display: flex;
 }
 
-
+.everything h1 {font-size: 4rem;}
 
 .everything {
     /* هر آنچه برای رسیدن به اندام ایده آل نیاز دارید */
@@ -204,20 +206,15 @@ div.typography {
 }
 
 .profesional h2 {
-    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(111, 78, 253, 0.74));
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.774), rgba(198, 187, 247, 0.637));
     background-clip: text;
     color: transparent;
+    padding-right: 2rem;
 }
 
 .profesional {
-    padding-right: 2rem;
     content: "تخصصی ترین وبسایت بدنسازی درایران با مجوز رسمی";
     display: flex;
-    color: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(111, 78, 253, 0.64));
-
-    /* width: 644px;
-    height: 174px;
-    left: 696px; */
     top: 238px;
 }
 
@@ -254,7 +251,7 @@ div.typography {
     border-radius: 10px;
     color: white;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 23px;
     text-align: right;
     align-items: center;
     margin: 3rem;
@@ -265,7 +262,7 @@ div.typography {
     display: flex;
     width: 91px;
     height: 123px;
-    padding: 16px 8px;
+    padding: 16px 138px 16px 8px;
     border-bottom: 1px;
     border-radius: 16px;
     gap: 53px;
@@ -324,7 +321,6 @@ div.typography {
 
 .frame {
     /* Frame 5 */
-
     width: 704.36px;
     height: 684.58px;
     left: -7px;
@@ -333,8 +329,6 @@ div.typography {
 
 .Group {
     /* Group 3 */
-
-
     width: 704.36px;
     height: 684.58px;
     left: 0px;
@@ -343,8 +337,6 @@ div.typography {
 
 .maskg {
     /* Mask group */
-
-
     width: 574.7px;
     height: 574.7px;
     left: 48.64px;
@@ -353,58 +345,35 @@ div.typography {
 
 .Ellipse {
     /* Ellipse 130 */
-
-
     left: 6.91%;
     right: 11.5%;
     top: 16.05%;
     bottom: 0%;
-
     background: var(--primary);
 }
 
 .ottf {
     /* 1245 1 */
-
-
     width: 704.36px;
     height: 704.36px;
     left: 0px;
     top: 0px;
-
     background: url(1245.png);
 }
 
 .ottf {
     /* 1245 2 */
-
-
     width: 704.36px;
     height: 641.31px;
     left: 0px;
     top: 0px;
-
     background: url(1245.png);
     opacity: 0.52;
     filter: blur(76px);
 }
 
-.ottf {
-    /* 1245 3 */
-
-
-    width: 704.36px;
-    height: 641.31px;
-    left: 0px;
-    top: 0px;
-
-    background: url(1245.png);
-}
-
 .Star {
     /* Star */
-
-
     width: 62px;
     height: 62px;
     left: 113px;
@@ -413,8 +382,6 @@ div.typography {
 
 .Group {
     /* Group */
-
-
     left: 8.29%;
     right: 8.27%;
     top: 8.41%;
@@ -423,8 +390,6 @@ div.typography {
 
 .Vector {
     /* Vector */
-
-
     left: 8.29%;
     right: 8.27%;
     top: 8.41%;
@@ -434,7 +399,6 @@ div.typography {
 .one {
     /* 01 */
     background: #FFFFFF;
-
 }
 
 .container>.full-width {
@@ -445,6 +409,7 @@ div.typography {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 
 .container>.full-width .slope {
@@ -452,6 +417,7 @@ div.typography {
     font-size: 2rem;
     font-weight: 600;
     width: 100%;
+    height: 7rem;
     background-color: #684CEB;
     text-align: center;
     margin: 0 auto;
@@ -468,9 +434,9 @@ div.typography {
     text-align: center;
 }
 
-.our-s span {
-    font-weight: 700;
-    font-size: 34px;
+.services span {
+    font-weight: 900;
+    font-size: 40px;
 }
 
 .card-s-container {
