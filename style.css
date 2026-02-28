@@ -30,27 +30,20 @@ body {
 
 .header {
     position: relative;
-
-
     width: 100%;
     max-width: 1900px;
-    /* display: flex;
-    justify-content: space-between; */
 }
 
 .header>nav {
     position: absolute;
     top: 53.59px;
-
     display: flex;
     margin: auto;
-    /* justify-content: space-between; */
 }
 
 .header>.logo {
     position: absolute;
     /* background: #060B25; */
-    /* 126*48 */
     top: 53.59px;
     right: 100px;
     left: 1214px;
@@ -86,11 +79,6 @@ nav>.menu-item {
     margin: 0 20px;
 }
 
-
-
-
-
-
 .cta {
     position: absolute;
     top: 50px;
@@ -109,9 +97,9 @@ nav>.menu-item {
 }
 
 .cta .ctl-user span {
-    display: flex;
+
     /* ورود و ثبت نام */
-    margin: 0 14px;
+    margin: 0 10px;
 }
 
 div.typography>.star {
@@ -128,8 +116,6 @@ div.typography {
     padding: 16px 8px;
     display: flex;
     color: white;
-
-
     justify-content: right;
     position: relative;
 }
@@ -154,8 +140,6 @@ div.typography {
 
 .typography>img.typo {
     position: absolute;
-    /* Bottom left text */
-
 
     /* bottom: 8px;
     left: 16px; */
@@ -179,7 +163,9 @@ div.typography {
     display: flex;
 }
 
-.everything h1 {font-size: 4rem;}
+.everything h1 {
+    font-size: 4rem;
+}
 
 .everything {
     /* هر آنچه برای رسیدن به اندام ایده آل نیاز دارید */
@@ -436,7 +422,7 @@ div.typography {
 
 .services span {
     font-weight: 900;
-    font-size: 40px;
+    font-size: 36px;
 }
 
 .card-s-container {
@@ -506,7 +492,7 @@ div.typography {
 }
 
 .card-s:hover {
-    background-color: #6F4EFD;
+    background-color: var(--primary);
     border: 1px solid white;
 
 }
@@ -522,7 +508,22 @@ div.typography {
     width: 1621px;
     min-height: 741px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
 
+.products .head-primary {
+    display: flex;
+    margin: 117px auto 0 auto;
+    color: var(--primary);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.products .head {
+    margin: 14px auto 0 auto;
+    font-size: 34px;
+    font-weight: 700;
 }
 
 .cards-product {
@@ -546,7 +547,7 @@ div.typography {
     min-height: 397px;
     border-radius: 15px;
     cursor: pointer;
-
+    background-color: rgba(255, 255, 255, 0.10);
 }
 
 .cards-product .card-body:hover {
@@ -562,6 +563,7 @@ div.typography {
 
 .productinfo>.pname {
     flex-wrap: nowrap;
+
 }
 
 .productinfo {
@@ -580,7 +582,7 @@ div.typography {
     font-weight: 900;
     font-size: 1.5rem;
     justify-content: center;
-    margin: 4.7rem auto 0 auto;
+    margin: 3.5rem auto 0 auto;
     transform: translatey(0.8rem);
     width: 1.9rem;
     height: 1.9rem;
@@ -594,16 +596,18 @@ div.typography {
 
 .card-body .hover {
     display: none;
-
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .card-body:hover .hover {
     background-color: #fff;
-    color: #6F4EFD;
+    color: var(--primary);
     display: flex;
-    border-radius: 16px;
+    border-radius: 4px;
     width: max-content;
-    margin: 4rem auto 0 auto;
+    margin: 2rem auto 0 auto;
     transform: translateY(2rem);
 
 }
@@ -649,7 +653,7 @@ div.typography {
     width: max-content;
 }
 
-.container2>.left >img {
+.container2>.left>img {
     position: absolute;
 }
 
@@ -658,7 +662,7 @@ div.typography {
 
     background-color: rgba(255, 255, 255, 0.24);
     right: 0;
-    
+
     top: 50%;
     transform: translateY(-50%);
     width: max-content;
@@ -666,11 +670,9 @@ div.typography {
     display: flex;
     flex-direction: column;
 
- 
+
 
 }
-
-.container2>.left .right span {}
 
 .container2>.left .right>img {
     width: 96px;
@@ -698,9 +700,16 @@ div.typography {
 
 .container2>.right {
     display: flex;
+    flex-direction: column;
     width: 50%;
     height: 100px;
 
+}
+
+.container2>.right .title {
+    font-size: 56px;
+    font-weight: 800;
+    color: linear-gradient(to left, rgba(255, 255, 255, 0.774), rgba(198, 187, 247, 0.637));
 }
 
 .container2 {
@@ -711,4 +720,15 @@ div.typography {
 .videos {
     display: flex;
 
+}
+
+.flex {
+    display: flex;
+    margin: 10px;
+}
+.primary{
+    margin: auto;
+}
+.usercomment{
+    margin: auto;
 }
